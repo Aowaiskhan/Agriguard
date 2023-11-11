@@ -1,0 +1,201 @@
+/* Global Styles */
+
+body {
+    /*font-family: Arial, sans-serif;*/
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+/* Navbar Styles */
+
+.navbar {
+    padding: 20px 0;
+
+}
+
+.navbar-brand img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.navbar-brand {
+    font-weight:normal;
+    font-size: 24px;
+    font-family: 'Lobster', cursive;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+    font-weight: lighter;
+    font-size: large;
+}
+
+.navbar-toggler-icon {
+    background-color: #fff;
+}
+.navbar-nav .nav-item {
+    margin-left: 20px; /* Adjusts left margin for each item */
+}
+
+/* Header Styles */
+
+header {
+    padding: 100px 0;
+}
+
+header h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.btn-orange {
+    background-color: #ff6600;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Main Content Styles */
+
+.main {
+    padding: 40px 0;
+}
+
+.main p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333;
+}
+
+/* Footer Styles */
+
+/* Footer Styles */
+
+/* Footer Styles */
+
+/* Footer Styles */
+
+/* Footer Styles */
+
+footer {
+    position: relative;
+    background-image: url('path_to_your_image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+
+
+footer h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.social-icons a {
+    text-decoration: none;
+    margin: 0 20px;
+    color: #fff;
+    font-size: 24px;
+}
+
+.footer-logo {
+    max-width: 150px;
+    margin-bottom: 10px;
+}
+
+address {
+    font-style: normal;
+    color: #fff;
+    line-height: 1.6;
+}
+
+.footer-nav {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-nav li a {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: block;
+}
+
+
+/* Contact Information Styles */
+
+.contact-info p {
+    color: #fff;
+    margin-top: 20px;
+}
+
+/* Responsive Styles */
+
+@media (max-width: 768px) {
+    header {
+        padding: 60px 0;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    .btn-orange {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}
+
+/* Card elements */
+.card-weather {
+    background-color: #cce7ff;  /* Light blue */
+}
+
+.card-calculator {
+    background-color: #ffe5cc;  /* Light orange */
+}
+
+.card-status {
+    background-color: #ccffcc;  /* Light green */
+}
+
+.card-help {
+    background-color: #e5ccff;  /* Light purple */
+}
+
+.card-bottom-heading {
+    font-weight: bold;
+    text-align: center;
+}
+
+.card-img-top.centered-image {
+    position: absolute; /* This makes the image positioned relative to the card */
+    top: 50%; /* Position it 50% from the top */
+    left: 50%; /* Position it 50% from the left */
+    transform: translate(-50%, -50%); /* This will pull the image back to center it perfectly */
+    margin: 0; /* Reset any margins */
+}
+
+.card-body {
+    position: relative; /* To ensure card body comes below the centered image */
+    top: 60%; /* Adjust as needed depending on the image and desired spacing */
+}
+.card:hover {
+    transform: scale(1.05);  /* 5% bigger on hover */
+    transition: transform 0.3s ease-in-out; /* Smooth transition for the scaling */
+    z-index: 1; /* To ensure the hovered card appears above other cards */
+}
+.footerText{
+    font-family: 'Lobster', cursive;
+    color: #af8e8e;
+}
